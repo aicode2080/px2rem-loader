@@ -1,0 +1,25 @@
+{
+  "name": "px2rem-loader",
+  "version": "1.0.0",
+  "description": "像素转rem脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-html": "^2.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "postcss": "^8.5.3",
+    "postcss-pxtorem": "^6.1.0",
+    "rollup": "^4.39.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^3.0.0"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1"
+  }
+}
