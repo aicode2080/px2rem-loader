@@ -1,6 +1,6 @@
 
 import postcss from 'rollup-plugin-postcss';
-import postcssPxtorem from 'postcss-pxtorem';
+import postcssPxtorem from './loader/index.js';
 import serve from 'rollup-plugin-serve';
 import html from '@rollup/plugin-html';
 import { nodeResolve } from '@rollup/plugin-node-resolve'; // 新增
